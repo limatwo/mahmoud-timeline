@@ -1,0 +1,299 @@
+---
+title: "Mahmoud Abdalla"
+format:
+  revealjs:
+    theme: simple
+    width: 1600
+    height: 900
+    margin: 0.08
+    controls: true
+    transition: slide
+    title-slide: false
+    embed-resources: true
+css: styles.css
+filters:
+  - timeline
+---
+
+## بسم الله الرحمن الرحيم {.arabic-opening-slide}
+
+::: {.arabic-opening dir="rtl" lang="ar"}
+::: {.arabic-wa}
+
+:::
+
+::: {.hamdala}
+والحمد لله، والصلاة والسلام على رسول الله، وعلى آله وصحبه اجمعين
+:::
+:::
+
+## <span class="tl-code">Mahmoud Abdalla</span> Career timeline {.timeline-slide}
+
+:::: {.timeline .fragment-slide .jobfair-timeline}
+::: {.event .fragment data-label="2009" data-fragment-index="0"}
+![](Ain_shams_logo.png){.timeline-logo .ain-shams-logo .fragment data-fragment-index="0"}
+
+**Graduated from Ain Shams University** 
+Mechatronics engineering
+Graduation project mine field robot for the Egyptian ministry of defense .
+
+![](Robot.png){.robot-image .fragment .fade-in-then-out data-fragment-index="0"}
+<p class="img-caption-ar fragment fade-in-then-out" dir="rtl" lang="ar" data-fragment-index="0">روبوت إزالة الألغام</p>
+:::
+
+::: {.event .fragment data-label="2013" data-fragment-index="1"}
+![](CU_logo.jpg){.timeline-logo .cu-logo .fragment data-fragment-index="1"}
+
+**Graduated from Carleton University** Master's project Reconfigurable robot for security applications for Allen Vanguard.
+
+![](Allen_vanguard.png){.allen-vanguard-image .fragment .fade-in-then-out data-fragment-index="1"}
+<p class="img-caption-ar fragment fade-in-then-out" dir="rtl" lang="ar" data-fragment-index="1">روبوت أمني قابل للتكوين</p>
+:::
+
+::: {.event .fragment data-label="2014" data-fragment-index="2"}
+![](polytainers.png){.timeline-logo .polytainers-logo .fragment data-fragment-index="2"}
+
+**Worked at polytainers ** A packaging company.
+
+![](polytainers_machine.png){.omron-image .fragment .fade-in-then-out data-fragment-index="2"}
+<p class="img-caption-ar fragment fade-in-then-out" dir="rtl" lang="ar" data-fragment-index="2">آلة تغليف صناعية</p>
+:::
+
+::: {.event .fragment data-label="2014" data-fragment-index="3"}
+![](Seneca_College-Logo.svg){.timeline-logo .seneca-logo .fragment data-fragment-index="3"}
+
+**Lecturer at Seneca College** Taught PLCs Omron systems
+
+![](Omron.png){.omron-image .fragment .fade-in-then-out data-fragment-index="3"}
+<p class="img-caption-ar fragment fade-in-then-out" dir="rtl" lang="ar" data-fragment-index="3">برمجة المتحكمات المنطقية أومرون</p>
+:::
+
+
+::: {.event .fragment data-label="2014/2015" data-fragment-index="4"}
+![](toronto_met.png){.timeline-logo .seneca-logo .fragment data-fragment-index="4"}
+
+**Mathematics student** Studied mathematics at Toronto Metropolitan University
+
+![](math_toronto.png){.omron-image .fragment .fade-in-then-out data-fragment-index="4"}
+<p class="img-caption-ar fragment fade-in-then-out" dir="rtl" lang="ar" data-fragment-index="4">دراسة الرياضيات</p>
+:::
+
+::: {.event .fragment data-label="2015" data-fragment-index="5"}
+![](Centennial_college_logo.png){.timeline-logo .seneca-logo .fragment data-fragment-index="5"}
+
+**Lecturer at Centennial College ** Taught electric circuits labs and industrial electronics
+
+![](industrial_electronics.png){.omron-image .fragment .fade-in-then-out data-fragment-index="5"}
+<p class="img-caption-ar fragment fade-in-then-out" dir="rtl" lang="ar" data-fragment-index="5">إلكترونيات صناعية ودوائر كهربائية</p>
+:::
+
+::: {.event .fragment data-label="2016" data-fragment-index="6"}
+![](Concordia-logo.jpg){.timeline-logo .seneca-logo .fragment data-fragment-index="6"}
+
+**Mathematics student** Studied mathematics at Concordia
+
+![](math_concordia.png){.omron-image .fragment .fade-in-then-out data-fragment-index="6"}
+<p class="img-caption-ar fragment fade-in-then-out" dir="rtl" lang="ar" data-fragment-index="6">دراسة الرياضيات</p>
+:::
+
+::: {.event .fragment data-label="2017" data-fragment-index="7"}
+![](mcgill_logo.png){.timeline-logo .seneca-logo .fragment data-fragment-index="7"}
+
+**Research Assistant at McGill University** Modelled ant colony 
+
+![](Mcgill_ant.png){.omron-image .fragment .fade-in-then-out data-fragment-index="7"}
+<p class="img-caption-ar fragment fade-in-then-out" dir="rtl" lang="ar" data-fragment-index="7">نمذجة مستعمرة النمل</p>
+:::
+
+::: {.event .fragment data-label="2018" data-fragment-index="8"}
+![](mcgill_logo.png){.timeline-logo .seneca-logo .fragment data-fragment-index="8"}
+
+**Research Assistant at McGill University** Applied AI ( VGG network) for Style transfer
+
+![](style_transfer.png){.omron-image .fragment .fade-in-then-out data-fragment-index="8"}
+<p class="img-caption-ar fragment fade-in-then-out" dir="rtl" lang="ar" data-fragment-index="8">نقل الأسلوب الفني بالذكاء الاصطناعي</p>
+:::
+
+::: {.event .fragment data-label="2018/2019" data-fragment-index="9"}
+![](mcgill_logo.png){.timeline-logo .seneca-logo .fragment data-fragment-index="9"}
+
+**Research Assistant at McGill University** Applied computer vision principles to Slit lamps (an ophthalmology application)
+
+![](lytro_camera.png){.omron-image .fragment .fade-in-then-out data-fragment-index="9"}
+<p class="img-caption-ar fragment fade-in-then-out" dir="rtl" lang="ar" data-fragment-index="9">رؤية حاسوبية لطب العيون</p>
+:::
+
+::: {.event .fragment data-label="2019/2020" data-fragment-index="10"}
+![](mcgill_logo.png){.timeline-logo .seneca-logo .fragment data-fragment-index="10"}
+
+**Research Assistant at McGill University** Reduced fMRI scan time from 30mins to 15 mins
+
+![](fmri.png){.omron-image .fragment .fade-in-then-out data-fragment-index="10"}
+<p class="img-caption-ar fragment fade-in-then-out" dir="rtl" lang="ar" data-fragment-index="10">تقليل وقت مسح الرنين المغناطيسي إلى النصف</p>
+:::
+
+::: {.event .fragment data-label="2021" data-fragment-index="11"}
+![](mcgill_logo.png){.timeline-logo .seneca-logo .fragment data-fragment-index="11"}
+
+**Research Assistant at McGill University** Control of DNA inside Nanopore (semiconductor chip)
+
+![](Nanopore.png){.omron-image .fragment .fade-in-then-out data-fragment-index="11"}
+<p class="img-caption-ar fragment fade-in-then-out" dir="rtl" lang="ar" data-fragment-index="11">التحكم في الحمض النووي بشريحة نانوبور</p>
+:::
+
+::: {.event .fragment data-label="2022" data-fragment-index="12"}
+![](Meta_logo.png){.timeline-logo .seneca-logo .fragment data-fragment-index="12"}
+
+**Research analyst audio division** Data collection for Deep learning for Virtual reality headset
+
+![](Hrtf_meta.png){.omron-image .fragment .fade-in-then-out data-fragment-index="12"}
+<p class="img-caption-ar fragment fade-in-then-out" dir="rtl" lang="ar" data-fragment-index="12">تعلم عميق للواقع الافتراضي — ميتا</p>
+:::
+
+::: {.event .fragment data-label="2023" data-fragment-index="13"}
+![](King_Fahd_University_of_Petroleum_&_Minerals_Logo.png){.timeline-logo .seneca-logo .fragment data-fragment-index="13"}
+
+**Master's student**CAD parts for CNC
+
+![](robot_control.png){.omron-image .fragment .fade-in-then-out data-fragment-index="13"}
+<p class="img-caption-ar fragment fade-in-then-out" dir="rtl" lang="ar" data-fragment-index="13">التحكم في الروبوت</p>
+:::
+
+::: {.event .fragment data-label="2024" data-fragment-index="14"}
+![](amit_logo.png){.timeline-logo .seneca-logo .fragment data-fragment-index="14"}
+
+**AI diploma** Applied MobileNet to mask detection 
+
+![](AMIT_face.png){.omron-image .fragment .fade-in-then-out data-fragment-index="14"}
+<p class="img-caption-ar fragment fade-in-then-out" dir="rtl" lang="ar" data-fragment-index="14">كشف الكمامة بشبكة MobileNet</p>
+:::
+
+::: {.event .fragment data-label="2024" data-fragment-index="15"}
+![](senior_steps_dev_ops.png){.timeline-logo .seneca-logo .fragment data-fragment-index="15"}
+
+**DevOps** Ansible Configuration Management
+
+![](devOps.png){.omron-image .fragment .fade-in-then-out data-fragment-index="15"}
+<p class="img-caption-ar fragment fade-in-then-out" dir="rtl" lang="ar" data-fragment-index="15">إدارة التهيئة بأنسيبل</p>
+:::
+
+::: {.event .fragment data-label="2024" data-fragment-index="16"}
+![](ROS_logo.png){.timeline-logo .seneca-logo .fragment data-fragment-index="16"}
+
+**ROS application**
+
+![](ROS_application.png){.omron-image .fragment .fade-in-then-out data-fragment-index="16"}
+<p class="img-caption-ar fragment fade-in-then-out" dir="rtl" lang="ar" data-fragment-index="16">تطبيق نظام تشغيل الروبوت ROS</p>
+:::
+
+::: {.event .fragment data-label="2025" data-fragment-index="17"}
+![](King_Fahd_University_of_Petroleum_&_Minerals_Logo.png){.timeline-logo .seneca-logo .fragment data-fragment-index="17"}
+
+**EE Master's student/TA** Filtering Noise  from sensors for vehicle lane changing 
+
+![](Kalaman_filter.png){.omron-image .fragment .fade-in-then-out data-fragment-index="17"}
+<p class="img-caption-ar fragment fade-in-then-out" dir="rtl" lang="ar" data-fragment-index="17">تصفية ضوضاء المستشعرات لتغيير المسار</p>
+:::
+
+::: {.event .fragment data-label="2025" data-fragment-index="18"}
+![](King_Fahd_University_of_Petroleum_&_Minerals_Logo.png){.timeline-logo .seneca-logo .fragment data-fragment-index="18"}
+
+**EE Master's student/TA** Applied CV to distinguish Palm trees via Stereo Camera in ROS
+
+![](palm_tree_detection.png){.omron-image .fragment .fade-in-then-out data-fragment-index="18"}
+<p class="img-caption-ar fragment fade-in-then-out" dir="rtl" lang="ar" data-fragment-index="18">كشف أشجار النخيل بكاميرا ستيريو</p>
+:::
+
+::: {.event .fragment data-label="2025" data-fragment-index="19"}
+![](King_Fahd_University_of_Petroleum_&_Minerals_Logo.png){.timeline-logo .seneca-logo .fragment data-fragment-index="19"}
+
+**EE Master's student/TA** Studying Renewable PV plus Wind in Dumat aljandal KSA 
+
+![](Renewable_energy.png){.omron-image .fragment .fade-in-then-out data-fragment-index="19"}
+<p class="img-caption-ar fragment fade-in-then-out" dir="rtl" lang="ar" data-fragment-index="19">طاقة شمسية وريحية في دومة الجندل</p>
+:::
+
+::: {.event .fragment data-label="2025" data-fragment-index="20"}
+![](King_Fahd_University_of_Petroleum_&_Minerals_Logo.png){.timeline-logo .seneca-logo .fragment data-fragment-index="20"}
+
+**EE Master's student/TA** Flood detection using DDS measuring latency in ROS
+
+![](flood_detection.png){.omron-image .fragment .fade-in-then-out data-fragment-index="20"}
+<p class="img-caption-ar fragment fade-in-then-out" dir="rtl" lang="ar" data-fragment-index="20">كشف الفيضانات بقياس زمن الاستجابة</p>
+:::
+
+::: {.event .fragment data-label="2026" data-fragment-index="21"}
+![](King_Fahd_University_of_Petroleum_&_Minerals_Logo.png){.timeline-logo .seneca-logo .fragment data-fragment-index="21"}
+
+**EE Master's student/TA** Applying AI (BEVnet to detect traversable terrain  for robots)
+
+![](terrian_classification.png){.omron-image .fragment .fade-in-then-out data-fragment-index="21"}
+<p class="img-caption-ar fragment fade-in-then-out" dir="rtl" lang="ar" data-fragment-index="21">تصنيف التضاريس للروبوتات — BEVnet</p>
+:::
+
+::: {.event .fragment data-label="Skills" data-fragment-index="22"}
+![](skills.png){.omron-image .fragment data-fragment-index="22"}
+:::
+
+::: {.event .fragment data-label="Next" data-fragment-index="23"}
+**Expected to graduate in the next few months** Bringing simulation, data analysis, and teaching strengths to a potential team.
+
+![](QR_code.png){.omron-image .fragment .fade-in-then-out data-fragment-index="23"}
+<p class="img-caption-ar fragment fade-in-then-out" dir="rtl" lang="ar" data-fragment-index="23">تواصل معي</p>
+:::
+::::
+
+<div class="bottom-line fragment fade-in-then-out" data-fragment-index="0" aria-hidden="true"></div>
+<div class="bottom-line ottawa-bottom-line fragment fade-in-then-out" data-fragment-index="1" aria-hidden="true"></div>
+<div class="bottom-line toronto-bottom-line fragment fade-in-then-out" data-fragment-index="2" aria-hidden="true"></div>
+<div class="bottom-line toronto-bottom-line fragment fade-in-then-out" data-fragment-index="3" aria-hidden="true"></div>
+<div class="bottom-line toronto-bottom-line fragment fade-in-then-out" data-fragment-index="4" aria-hidden="true"></div>
+<div class="bottom-line toronto-bottom-line fragment fade-in-then-out" data-fragment-index="5" aria-hidden="true"></div>
+<div class="bottom-line montreal-bottom-line fragment fade-in-then-out" data-fragment-index="6" aria-hidden="true"></div>
+<div class="bottom-line montreal-bottom-line fragment fade-in-then-out" data-fragment-index="7" aria-hidden="true"></div>
+<div class="bottom-line montreal-bottom-line fragment fade-in-then-out" data-fragment-index="8" aria-hidden="true"></div>
+<div class="bottom-line montreal-bottom-line fragment fade-in-then-out" data-fragment-index="9" aria-hidden="true"></div>
+<div class="bottom-line montreal-bottom-line fragment fade-in-then-out" data-fragment-index="10" aria-hidden="true"></div>
+<div class="bottom-line montreal-bottom-line fragment fade-in-then-out" data-fragment-index="11" aria-hidden="true"></div>
+<div class="bottom-line seattle-bottom-line fragment fade-in-then-out" data-fragment-index="12" aria-hidden="true"></div>
+<div class="bottom-line dahran-bottom-line fragment fade-in-then-out" data-fragment-index="13" aria-hidden="true"></div>
+<div class="bottom-line fragment fade-in-then-out" data-fragment-index="14" aria-hidden="true"></div>
+<div class="bottom-line fragment fade-in-then-out" data-fragment-index="15" aria-hidden="true"></div>
+<div class="bottom-line fragment fade-in-then-out" data-fragment-index="16" aria-hidden="true"></div>
+<div class="bottom-line dahran-bottom-line fragment fade-in-then-out" data-fragment-index="17" aria-hidden="true"></div>
+<div class="bottom-line dahran-bottom-line fragment fade-in-then-out" data-fragment-index="18" aria-hidden="true"></div>
+<div class="bottom-line dahran-bottom-line fragment fade-in-then-out" data-fragment-index="19" aria-hidden="true"></div>
+<div class="bottom-line dahran-bottom-line fragment fade-in-then-out" data-fragment-index="20" aria-hidden="true"></div>
+<div class="bottom-line dahran-bottom-line fragment fade-in-then-out" data-fragment-index="21" aria-hidden="true"></div>
+
+![](cairo_skyline.png){.cairo-skyline .fragment .fade-in-then-out data-fragment-index="0"}
+![](Ottawa.png){.ottawa-skyline .fragment .fade-in-then-out data-fragment-index="1"}
+![](Toronto_skyline.png){.toronto-skyline .fragment .fade-in-then-out data-fragment-index="2"}
+![](Toronto_skyline.png){.toronto-skyline .fragment .fade-in-then-out data-fragment-index="3"}
+![](Toronto_skyline.png){.toronto-skyline .fragment .fade-in-then-out data-fragment-index="4"}
+![](Toronto_skyline.png){.toronto-skyline .fragment .fade-in-then-out data-fragment-index="5"}
+![](montreal.png){.montreal-skyline .fragment .fade-in-then-out data-fragment-index="6"}
+![](montreal.png){.montreal-skyline .fragment .fade-in-then-out data-fragment-index="7"}
+![](montreal.png){.montreal-skyline .fragment .fade-in-then-out data-fragment-index="8"}
+![](montreal.png){.montreal-skyline .fragment .fade-in-then-out data-fragment-index="9"}
+![](montreal.png){.montreal-skyline .fragment .fade-in-then-out data-fragment-index="10"}
+![](montreal.png){.montreal-skyline .fragment .fade-in-then-out data-fragment-index="11"}
+![](seattle.png){.seattle-skyline .fragment .fade-in-then-out data-fragment-index="12"}
+![](Dahran.png){.dahran-skyline .fragment .fade-in-then-out data-fragment-index="13"}
+![](cairo_skyline.png){.cairo-skyline .fragment .fade-in-then-out data-fragment-index="14"}
+![](cairo_skyline.png){.cairo-skyline .fragment .fade-in-then-out data-fragment-index="15"}
+![](cairo_skyline.png){.cairo-skyline .fragment .fade-in-then-out data-fragment-index="16"}
+![](Dahran.png){.dahran-skyline .fragment .fade-in-then-out data-fragment-index="17"}
+![](Dahran.png){.dahran-skyline .fragment .fade-in-then-out data-fragment-index="18"}
+![](Dahran.png){.dahran-skyline .fragment .fade-in-then-out data-fragment-index="19"}
+![](Dahran.png){.dahran-skyline .fragment .fade-in-then-out data-fragment-index="20"}
+![](Dahran.png){.dahran-skyline .fragment .fade-in-then-out data-fragment-index="21"}
+
+<div class="city-label fragment fade-in-then-out" data-fragment-index="0">Cairo, Egypt</div>
+<div class="city-label fragment fade-in-then-out" data-fragment-index="1">Ottawa, Canada</div>
+<div class="city-label fragment fade-in-then-out" data-fragment-index="2">Toronto, Canada</div>
+<div class="city-label fragment fade-in-then-out" data-fragment-index="6">Montreal, Canada</div>
+<div class="city-label fragment fade-in-then-out" data-fragment-index="12">Seattle, USA</div>
+<div class="city-label fragment fade-in-then-out" data-fragment-index="13">Dhahran, KSA</div>
+<div class="city-label fragment fade-in-then-out" data-fragment-index="14">Cairo, Egypt</div>
+<div class="city-label fragment fade-in-then-out" data-fragment-index="17">Dhahran, KSA</div>
