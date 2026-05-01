@@ -9,7 +9,7 @@ format:
     controls: true
     transition: slide
     title-slide: false
-    embed-resources: true
+    embed-resources: false
 css: styles.css
 filters:
   - timeline
