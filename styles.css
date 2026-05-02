@@ -1,0 +1,392 @@
+@import url("https://fonts.googleapis.com/css2?family=Reem+Kufi:wght@500;600;700&display=swap");
+
+.reveal {
+  --r-background-color: #ffffff;
+  --r-main-color: #1d2420;
+  --r-heading-color: #1d2420;
+  --r-main-font: "Segoe UI", Arial, sans-serif;
+  --r-heading-font: Georgia, "Times New Roman", serif;
+}
+
+.reveal .slides {
+  text-align: left;
+}
+
+.reveal .slides section {
+  height: 100%;
+}
+
+.reveal .arabic-opening-slide,
+.reveal .timeline-slide {
+  position: relative;
+  overflow: hidden;
+}
+
+.reveal .arabic-opening-slide::before,
+.reveal .timeline-slide::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image: url("background.png");
+  background-position: center;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  opacity: 0.16;
+  pointer-events: none;
+  z-index: 0;
+}
+
+.reveal h2 {
+  margin: 0 0 2.2rem;
+  font-size: 4.35rem;
+  font-weight: 800;
+  line-height: 1.05;
+  letter-spacing: 0;
+}
+
+.reveal h2 .tl-code {
+  color: #5a61b5;
+  font-family: Consolas, "Courier New", monospace;
+}
+
+.reveal .timeline-slide {
+  position: relative;
+}
+
+.reveal #title-slide {
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+  min-height: 100%;
+  padding: 0;
+  background-color: #ffffff;
+  background-image: url("introduction.png");
+  background-position: center;
+  background-size: auto 96%;
+  background-repeat: no-repeat;
+}
+
+.reveal #title-slide .title {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+}
+
+.reveal .arabic-opening-slide {
+  display: flex !important;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.reveal .arabic-opening-slide h2,
+.reveal .arabic-opening {
+  direction: rtl;
+  font-family: "Reem Kufi", "Noto Kufi Arabic", "Segoe UI", Tahoma, sans-serif;
+  letter-spacing: 0;
+}
+
+.reveal .arabic-opening-slide h2 {
+  margin: 0 0 1.5rem;
+  font-size: 4.25rem;
+  font-weight: 800;
+  line-height: 1.7;
+}
+
+.reveal .arabic-opening {
+  max-width: 1180px;
+  margin: 0 auto;
+  color: #1d2420;
+}
+
+.reveal .arabic-opening .arabic-wa {
+  margin: 0.6rem 0 1rem;
+  font-size: 3rem;
+  font-weight: 600;
+  line-height: 1.4;
+}
+
+.reveal .arabic-opening .hamdala {
+  font-size: 3.15rem;
+  font-weight: 600;
+  line-height: 1.9;
+}
+
+.reveal .jobfair-timeline {
+  --tl-color-line: #222222;
+  --tl-color-dot: #222222;
+  --tl-color-dot-bg: #ffffff;
+  --tl-color-label: #14181a;
+  --tl-color-content: #1d1f21;
+  --tl-dot-size: 1rem;
+  --tl-line-width: 4px;
+  --tl-label-size: 1.4rem;
+  --tl-content-size: 1.85rem;
+  --tl-event-width: 560px;
+  margin-top: 8rem;
+  min-height: 310px;
+}
+
+.reveal .jobfair-timeline .event {
+  padding-top: 3.5rem;
+  line-height: 1.35;
+}
+
+.reveal .jobfair-timeline .timeline-logo {
+  position: absolute;
+  top: -11.5rem;
+  left: 50%;
+  width: 5.4rem;
+  height: 5.4rem;
+  object-fit: cover;
+  object-position: center 64%;
+  transform: translateX(-50%);
+  border: 4px solid #ffffff;
+  border-radius: 50%;
+  box-shadow: 0 0.3rem 1rem rgba(0, 0, 0, 0.18);
+}
+
+.reveal .jobfair-timeline .seneca-logo {
+  width: 7.4rem;
+  height: 4.8rem;
+  padding: 0.55rem;
+  object-fit: contain;
+  object-position: center;
+  background: #ffffff;
+  border-radius: 0.9rem;
+  box-sizing: border-box;
+}
+
+.reveal .jobfair-timeline .polytainers-logo {
+  width: 8.4rem;
+  height: 4.8rem;
+  padding: 0.45rem;
+  object-fit: contain;
+  object-position: center;
+  background: #ffffff;
+  border-radius: 0.9rem;
+  box-sizing: border-box;
+}
+
+.reveal .jobfair-timeline .event::before {
+  font-family: "Segoe UI", Arial, sans-serif;
+  font-weight: 800;
+}
+
+.reveal .jobfair-timeline .event strong {
+  font-weight: 800;
+}
+
+.reveal .jobfair-timeline .event p {
+  max-width: 460px;
+  margin: 0 auto;
+}
+
+.reveal .jobfair-timeline .robot-image {
+  display: block;
+  width: min(360px, 86%);
+  max-height: 250px;
+  object-fit: contain;
+  margin: 1.35rem auto 0;
+}
+
+.reveal .jobfair-timeline .allen-vanguard-image {
+  display: block;
+  width: min(420px, 90%);
+  max-height: 255px;
+  object-fit: contain;
+  margin: 1.2rem auto 0;
+}
+
+.reveal .jobfair-timeline .omron-image {
+  display: block;
+  width: min(430px, 92%);
+  max-height: 245px;
+  object-fit: contain;
+  margin: 1.2rem auto 0;
+}
+
+.reveal .timeline-slide .cairo-skyline {
+  position: absolute;
+  right: -4rem;
+  bottom: -0.25rem;
+  width: min(62rem, 55vw);
+  max-height: 46vh;
+  max-width: none;
+  object-fit: contain;
+  opacity: 0.9;
+  pointer-events: none;
+  z-index: 1;
+}
+
+.reveal .timeline-slide .ottawa-skyline {
+  position: absolute;
+  right: -4rem;
+  bottom: -0.25rem;
+  width: min(62rem, 55vw);
+  max-height: 46vh;
+  max-width: none;
+  object-fit: contain;
+  opacity: 0.9;
+  pointer-events: none;
+  z-index: 1;
+}
+
+.reveal .timeline-slide .toronto-skyline {
+  position: absolute;
+  right: -4rem;
+  bottom: -0.25rem;
+  width: min(62rem, 55vw);
+  max-height: 46vh;
+  max-width: none;
+  object-fit: contain;
+  opacity: 0.9;
+  pointer-events: none;
+  z-index: 1;
+}
+
+.reveal .timeline-slide .dahran-skyline {
+  position: absolute;
+  right: -4rem;
+  bottom: -0.25rem;
+  width: min(62rem, 55vw);
+  max-height: 46vh;
+  max-width: none;
+  object-fit: contain;
+  opacity: 0.9;
+  pointer-events: none;
+  z-index: 1;
+}
+
+.reveal .timeline-slide .seattle-skyline {
+  position: absolute;
+  right: -4rem;
+  bottom: -0.25rem;
+  width: min(62rem, 55vw);
+  max-height: 46vh;
+  max-width: none;
+  object-fit: contain;
+  opacity: 0.9;
+  pointer-events: none;
+  z-index: 1;
+}
+
+.reveal .timeline-slide .montreal-skyline {
+  position: absolute;
+  right: -4rem;
+  bottom: -0.25rem;
+  width: min(62rem, 55vw);
+  max-height: 46vh;
+  max-width: none;
+  object-fit: contain;
+  opacity: 0.9;
+  pointer-events: none;
+  z-index: 1;
+}
+
+.reveal .timeline-slide .bottom-line {
+  position: absolute;
+  left: 2.5rem;
+  right: 2.5rem;
+  bottom: 2.35rem;
+  height: 2px;
+  background: #222222;
+  pointer-events: none;
+  z-index: 0;
+}
+
+/* ── Dot/label color coding by event type ─────────────────── */
+
+/* Default: academic (study, teaching, graduation) */
+.reveal .jobfair-timeline .event {
+  --tl-color-accent: #5a61b5;
+}
+
+/* Research (McGill) */
+.reveal .jobfair-timeline .event[data-fragment-index="7"],
+.reveal .jobfair-timeline .event[data-fragment-index="8"],
+.reveal .jobfair-timeline .event[data-fragment-index="9"],
+.reveal .jobfair-timeline .event[data-fragment-index="10"],
+.reveal .jobfair-timeline .event[data-fragment-index="11"] {
+  --tl-color-accent: #27ae60;
+}
+
+/* Industry / professional work */
+.reveal .jobfair-timeline .event[data-fragment-index="2"],
+.reveal .jobfair-timeline .event[data-fragment-index="12"] {
+  --tl-color-accent: #e67e22;
+}
+
+/* ── City labels ───────────────────────────────────────────── */
+
+.reveal .timeline-slide .city-label {
+  position: absolute;
+  right: 2rem;
+  bottom: 9rem;
+  font-family: "Segoe UI", Arial, sans-serif;
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: #1d2420;
+  background: rgba(255, 255, 255, 0.88);
+  padding: 0.3rem 1rem;
+  border-radius: 2rem;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.12);
+  pointer-events: none;
+  z-index: 2;
+}
+
+.reveal .progress {
+  color: #5a7de8;
+}
+
+/* ── Arabic image captions ─────────────────────────────────── */
+
+.reveal .jobfair-timeline .img-caption-ar {
+  font-family: "Reem Kufi", "Noto Kufi Arabic", "Segoe UI", sans-serif;
+  font-size: 1.15rem;
+  font-weight: 600;
+  color: var(--tl-color-accent, #5a61b5);
+  text-align: center;
+  direction: rtl;
+  letter-spacing: 0;
+  max-width: 460px;
+  margin: 0.35rem auto 0;
+}
+
+.reveal .word-cloud {
+  font-family: "Reem Kufi", "Noto Kufi Arabic", "Segoe UI", sans-serif;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 0.1rem 1rem;
+  max-width: 1460px;
+  text-align: center;
+  direction: rtl;
+  line-height: 1.25;
+}
+
+.reveal .word-cloud span {
+  display: inline-block;
+  font-weight: 700;
+}
+
+.reveal .word-cloud .wc-xl   { font-size: 4.6rem; }
+.reveal .word-cloud .wc-lg   { font-size: 3.1rem; }
+.reveal .word-cloud .wc-md   { font-size: 2.05rem; }
+.reveal .word-cloud .wc-sm   { font-size: 1.4rem;  font-weight: 600; }
+.reveal .word-cloud .wc-xs   { font-size: 0.95rem; font-weight: 400; }
+
+.reveal .word-cloud .wc-accent { color: #e67e22; }
+.reveal .word-cloud .wc-dark   { color: #1d2420; }
+.reveal .word-cloud .wc-dim    { color: #888888; }
+
+/* Vertical rhythm — breaks up strict horizontal rows */
+.reveal .word-cloud span:nth-child(3n)    { margin-top:  0.55rem; }
+.reveal .word-cloud span:nth-child(5n+1)  { margin-top: -0.4rem;  }
+.reveal .word-cloud span:nth-child(7n+3)  { margin-top:  0.9rem;  }
+.reveal .word-cloud span:nth-child(11n+2) { margin-top: -0.65rem; }
