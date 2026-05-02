@@ -18,13 +18,19 @@ jobs:
       - name: Set up Quarto
         uses: quarto-dev/quarto-actions/setup@v2
 
-      - name: Render presentation
-        run: quarto render index.qmd
+      - name: Render and collect output
+        run: |
+          quarto render index.qmd
+          mkdir -p _deploy
+          cp index.html _deploy/
+          cp -r index_files _deploy/ 2>/dev/null || true
+          find . -maxdepth 1 \( -name "*.png" -o -name "*.jpg" -o -name "*.jpeg" -o -name "*.svg" \) -exec cp {} _deploy/ \;
+          cp styles.css _deploy/ 2>/dev/null || true
+          cp .nojekyll _deploy/
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: .
+          publish_dir: ./_deploy
           publish_branch: gh-pages
-          exclude_assets: '.github,_extensions,*.qmd,*.pdf,presentation_print.html'
