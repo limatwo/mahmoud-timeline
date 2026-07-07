@@ -127,6 +127,8 @@
   --tl-label-size: 1.4rem;
   --tl-content-size: 1.85rem;
   --tl-event-width: 560px;
+  position: relative;
+  z-index: 2;
   margin-top: 8rem;
   min-height: 310px;
 }
