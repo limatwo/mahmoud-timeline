@@ -212,77 +212,17 @@
   margin: 1.2rem auto 0;
 }
 
-.reveal .timeline-slide .cairo-skyline {
-  position: absolute;
-  right: -4rem;
-  bottom: -0.25rem;
-  width: min(62rem, 55vw);
-  max-height: 46vh;
-  max-width: none;
-  object-fit: contain;
-  opacity: 0.9;
-  pointer-events: none;
-  z-index: 1;
-}
-
-.reveal .timeline-slide .ottawa-skyline {
-  position: absolute;
-  right: -4rem;
-  bottom: -0.25rem;
-  width: min(62rem, 55vw);
-  max-height: 46vh;
-  max-width: none;
-  object-fit: contain;
-  opacity: 0.9;
-  pointer-events: none;
-  z-index: 1;
-}
-
-.reveal .timeline-slide .toronto-skyline {
-  position: absolute;
-  right: -4rem;
-  bottom: -0.25rem;
-  width: min(62rem, 55vw);
-  max-height: 46vh;
-  max-width: none;
-  object-fit: contain;
-  opacity: 0.9;
-  pointer-events: none;
-  z-index: 1;
-}
-
-.reveal .timeline-slide .dahran-skyline {
-  position: absolute;
-  right: -4rem;
-  bottom: -0.25rem;
-  width: min(62rem, 55vw);
-  max-height: 46vh;
-  max-width: none;
-  object-fit: contain;
-  opacity: 0.9;
-  pointer-events: none;
-  z-index: 1;
-}
-
-.reveal .timeline-slide .seattle-skyline {
-  position: absolute;
-  right: -4rem;
-  bottom: -0.25rem;
-  width: min(62rem, 55vw);
-  max-height: 46vh;
-  max-width: none;
-  object-fit: contain;
-  opacity: 0.9;
-  pointer-events: none;
-  z-index: 1;
-}
-
+.reveal .timeline-slide .cairo-skyline,
+.reveal .timeline-slide .ottawa-skyline,
+.reveal .timeline-slide .toronto-skyline,
+.reveal .timeline-slide .dahran-skyline,
+.reveal .timeline-slide .seattle-skyline,
 .reveal .timeline-slide .montreal-skyline {
   position: absolute;
   right: -4rem;
   bottom: -0.25rem;
-  width: min(62rem, 55vw);
-  max-height: 46vh;
+  width: min(31rem, 27.5vw);
+  max-height: 23vh;
   max-width: none;
   object-fit: contain;
   opacity: 0.9;
