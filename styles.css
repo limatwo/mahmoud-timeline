@@ -268,7 +268,7 @@
 .reveal .timeline-slide .city-label {
   position: absolute;
   right: 2rem;
-  bottom: 9rem;
+  bottom: 0.5rem;
   font-family: "Segoe UI", Arial, sans-serif;
   font-size: 1.3rem;
   font-weight: 600;
