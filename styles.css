@@ -221,8 +221,8 @@
   position: absolute;
   right: -4rem;
   bottom: -0.25rem;
-  width: min(20rem, 18vw);
-  max-height: 15vh;
+  width: min(25rem, 22vw);
+  max-height: 19vh;
   max-width: none;
   object-fit: contain;
   opacity: 0.9;
