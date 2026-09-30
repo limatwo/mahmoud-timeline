@@ -16,22 +16,22 @@
   height: 100%;
 }
 
-.reveal .arabic-opening-slide,
-.reveal .timeline-slide {
-  position: relative;
+.reveal section.arabic-opening-slide,
+.reveal section.timeline-slide {
   overflow: hidden;
 }
 
-.reveal .arabic-opening-slide::before,
-.reveal .timeline-slide::before {
+.reveal section.arabic-opening-slide::before,
+.reveal section.timeline-slide::before {
   content: "";
   position: absolute;
   inset: 0;
   /* Backups: original = url("background.png") size 100% 100% opacity 0.16;
      blue = url("background_v2.png") opacity 1;
      sharpened original = url("background_sharp.png") position left center, opacity 0.18 */
-  background-image: url("background_v3.png");
-  background-position: right center;
+  /* current background is set per slide in index.qmd (background-image=background_v3.png) */
+  background-image: none;
+  background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   opacity: 1;
@@ -39,8 +39,8 @@
   z-index: -1;
 }
 
-.reveal .arabic-opening-slide,
-.reveal .timeline-slide {
+.reveal section.arabic-opening-slide,
+.reveal section.timeline-slide {
   isolation: isolate;
 }
 
@@ -54,12 +54,9 @@
 
 .reveal h2 .tl-code {
   color: #5a61b5;
-  font-family: Consolas, "Courier New", monospace;
+  font-family: inherit;
 }
 
-.reveal .timeline-slide {
-  position: relative;
-}
 
 .reveal #title-slide {
   display: flex !important;
@@ -377,3 +374,4 @@
   border-radius: 6px;
   padding: 2px;
 }
+

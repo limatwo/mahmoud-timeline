@@ -16,7 +16,7 @@ filters:
   - timeline
 ---
 
-## بسم الله الرحمن الرحيم {.arabic-opening-slide}
+## بسم الله الرحمن الرحيم {.arabic-opening-slide background-image="background_v3.png" background-size="cover" background-position="right center"}
 
 ::: {.arabic-opening dir="rtl" lang="ar"}
 ::: {.arabic-wa}
@@ -28,7 +28,7 @@ filters:
 :::
 :::
 
-## <span class="tl-code">Mahmoud Abdalla</span> Career timeline {.timeline-slide}
+## <span class="tl-code">Mahmoud Abdalla</span> Career timeline {.timeline-slide background-image="background_v3.png" background-size="cover" background-position="right center"}
 
 :::: {.timeline .fragment-slide .jobfair-timeline}
 ::: {.event .fragment data-label="2009" data-fragment-index="0"}
