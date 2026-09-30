@@ -27,13 +27,20 @@
   content: "";
   position: absolute;
   inset: 0;
-  background-image: url("background.png");
-  background-position: center;
-  background-size: 100% 100%;
+  /* Old background kept as backup. To undo, swap these two blocks:
+     background-image: url("background.png"); background-size: 100% 100%; opacity: 0.16; */
+  background-image: url("background_v2.png");
+  background-position: left top;
+  background-size: cover;
   background-repeat: no-repeat;
-  opacity: 0.16;
+  opacity: 1;
   pointer-events: none;
-  z-index: 0;
+  z-index: -1;
+}
+
+.reveal .arabic-opening-slide,
+.reveal .timeline-slide {
+  isolation: isolate;
 }
 
 .reveal h2 {
@@ -46,7 +53,7 @@
 
 .reveal h2 .tl-code {
   color: #5a61b5;
-  font-family: Consolas, "Courier New", monospace;
+  font-family: inherit;
 }
 
 .reveal .timeline-slide {
