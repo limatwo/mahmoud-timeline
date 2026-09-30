@@ -28,12 +28,13 @@
   position: absolute;
   inset: 0;
   /* Backups: original = url("background.png") size 100% 100% opacity 0.16;
-     blue version = url("background_v2.png") position left top, opacity 1 */
-  background-image: url("background_sharp.png");
-  background-position: left center;
+     blue = url("background_v2.png") opacity 1;
+     sharpened original = url("background_sharp.png") position left center, opacity 0.18 */
+  background-image: url("background_v3.png");
+  background-position: right center;
   background-size: cover;
   background-repeat: no-repeat;
-  opacity: 0.18;
+  opacity: 1;
   pointer-events: none;
   z-index: -1;
 }
