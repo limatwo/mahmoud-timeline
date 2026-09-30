@@ -239,47 +239,25 @@ Graduation project mine field robot for the Egyptian ministry of defense .
 ::: {.event .fragment data-label="Lessons" data-fragment-index="22"}
 **What I learned from my experience**\
 Initiative • Convincing • Extreme pressure
+
+<ul class="lessons-list">
+<li><span class="lesson-text"><strong>At Carleton</strong> I learned to work efficiently and complete projects in a timely manner.</span><span class="lesson-logos"><img src="CU_logo.jpg" alt=""></span></li>
+<li><span class="lesson-text"><strong>At Seneca and Centennial</strong> I learned to work under extreme pressure and exhaustion.</span><span class="lesson-logos"><img src="Seneca_College-Logo.svg" alt=""><img src="Centennial_college_logo.png" alt=""></span></li>
+<li><span class="lesson-text"><strong>At McGill</strong> I had to figure out how to convince well-established researchers of my ideas and approaches.</span><span class="lesson-logos"><img src="mcgill_logo.png" alt=""></span></li>
+<li><span class="lesson-text"><strong>At Meta</strong> I learned to take the initiative and work independently on problems with minimal supervision.</span><span class="lesson-logos"><img src="Meta_logo.png" alt=""></span></li>
+<li><span class="lesson-text"><strong>At KFUPM</strong> I learned what it means to work under an extreme load and exhaustion and still perform at a high level.</span><span class="lesson-logos"><img src="King_Fahd_University_of_Petroleum_&_Minerals_Logo.png" alt=""></span></li>
+</ul>
 :::
 
-::: {.event .fragment data-label="Carleton" data-fragment-index="23"}
-![](CU_logo.jpg){.timeline-logo .cu-logo .fragment data-fragment-index="23"}
-
-**At Carleton** I learned to work efficiently and complete projects in a timely manner.
+::: {.event .fragment data-label="Skills" data-fragment-index="23"}
+![](skills.png){.omron-image .fragment data-fragment-index="23"}
 :::
 
-::: {.event .fragment data-label="Seneca & Centennial" data-fragment-index="24"}
-![](Seneca_College-Logo.svg){.timeline-logo .seneca-logo .fragment data-fragment-index="24"}
-
-**At Seneca and Centennial** I learned to work under extreme pressure and exhaustion.
-:::
-
-::: {.event .fragment data-label="McGill" data-fragment-index="25"}
-![](mcgill_logo.png){.timeline-logo .seneca-logo .fragment data-fragment-index="25"}
-
-**At McGill** I had to figure out how to convince well-established researchers of my ideas and approaches.
-:::
-
-::: {.event .fragment data-label="Meta" data-fragment-index="26"}
-![](Meta_logo.png){.timeline-logo .seneca-logo .fragment data-fragment-index="26"}
-
-**At Meta** I learned to take the initiative and work independently on problems with minimal supervision.
-:::
-
-::: {.event .fragment data-label="KFUPM" data-fragment-index="27"}
-![](King_Fahd_University_of_Petroleum_&_Minerals_Logo.png){.timeline-logo .seneca-logo .fragment data-fragment-index="27"}
-
-**At KFUPM** I learned what it means to work under an extreme load and exhaustion and still perform at a high level.
-:::
-
-::: {.event .fragment data-label="Skills" data-fragment-index="28"}
-![](skills.png){.omron-image .fragment data-fragment-index="28"}
-:::
-
-::: {.event .fragment data-label="Next" data-fragment-index="29"}
+::: {.event .fragment data-label="Next" data-fragment-index="24"}
 **Expected to graduate in the next few months** Bringing simulation, data analysis, and teaching strengths to a potential team.
 
-![](QR_code.png){.omron-image .fragment .fade-in-then-out data-fragment-index="29"}
-<p class="img-caption-ar fragment fade-in-then-out" dir="rtl" lang="ar" data-fragment-index="29">تواصل معي</p>
+![](QR_code.png){.omron-image .fragment .fade-in-then-out data-fragment-index="24"}
+<p class="img-caption-ar fragment fade-in-then-out" dir="rtl" lang="ar" data-fragment-index="24">تواصل معي</p>
 :::
 ::::
 

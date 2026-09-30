@@ -333,3 +333,39 @@
 .reveal .word-cloud span:nth-child(7n+3)  { margin-top:  0.9rem;  }
 .reveal .word-cloud span:nth-child(11n+2) { margin-top: -0.65rem; }
 
+
+/* Lessons point: all lessons on one timeline point */
+.reveal .jobfair-timeline .lessons-list {
+  display: block;
+  width: 100%;
+  max-width: 430px;
+  box-sizing: border-box;
+  list-style: none;
+  margin: 0.6rem auto 0;
+  padding: 0;
+  text-align: left;
+  font-size: 0.62em;
+  line-height: 1.25;
+}
+.reveal .jobfair-timeline .lessons-list li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.8rem;
+  margin: 0 0 0.45rem;
+}
+.reveal .jobfair-timeline .lessons-list .lesson-logos {
+  display: flex;
+  gap: 0.3rem;
+  flex-shrink: 0;
+}
+.reveal .jobfair-timeline .lessons-list .lesson-logos img {
+  height: 30px;
+  width: auto;
+  max-width: 70px;
+  object-fit: contain;
+  margin: 0;
+  background: #fff;
+  border-radius: 6px;
+  padding: 2px;
+}
