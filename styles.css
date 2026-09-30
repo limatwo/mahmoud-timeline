@@ -332,3 +332,28 @@
 .reveal .word-cloud span:nth-child(5n+1)  { margin-top: -0.4rem;  }
 .reveal .word-cloud span:nth-child(7n+3)  { margin-top:  0.9rem;  }
 .reveal .word-cloud span:nth-child(11n+2) { margin-top: -0.65rem; }
+
+/* Carleton: Allen Vanguard photo + reconfiguration step figures */
+.reveal .jobfair-timeline .reconfig-row p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.6rem;
+  margin: 1.2rem auto 0;
+}
+
+.reveal .jobfair-timeline .reconfig-row .allen-vanguard-image {
+  width: auto;
+  max-width: 200px;
+  max-height: 255px;
+  margin: 0;
+}
+
+.reveal .jobfair-timeline .reconfig-row .reconfig-image {
+  display: block;
+  height: 285px;
+  width: auto;
+  background: #fff;
+  border-radius: 4px;
+  margin: 0;
+}

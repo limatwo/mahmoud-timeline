@@ -46,7 +46,11 @@ Graduation project mine field robot for the Egyptian ministry of defense .
 
 **Graduated from Carleton University** Master's project Reconfigurable robot for security applications for Allen Vanguard.
 
-![](Allen_vanguard.png){.allen-vanguard-image .fragment .fade-in-then-out data-fragment-index="1"}
+::: {.reconfig-row .fragment .fade-in-then-out data-fragment-index="1"}
+![](Allen_vanguard.png){.allen-vanguard-image}
+![](reconfig_steps_1_3.png){.reconfig-image}
+![](reconfig_steps_4_5.png){.reconfig-image}
+:::
 <p class="img-caption-ar fragment fade-in-then-out" dir="rtl" lang="ar" data-fragment-index="1">روبوت أمني قابل للتكوين</p>
 :::
 
