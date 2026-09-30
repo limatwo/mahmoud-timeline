@@ -10,6 +10,7 @@ format:
     transition: slide
     title-slide: false
     embed-resources: false
+    include-after-body: timeline-menu.html
 css: styles.css
 filters:
   - timeline
