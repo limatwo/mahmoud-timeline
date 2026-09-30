@@ -653,6 +653,62 @@ Dhahran, KSA
         ]
       });
     </script>
+    <style>
+    .slide-menu-items li.tl-menu-item {
+      padding: 6px 10px 6px 34px !important;
+      font-size: 0.85em;
+      cursor: pointer;
+      border-bottom: 1px solid rgba(255,255,255,0.08);
+    }
+    .slide-menu-items li.tl-menu-item:hover { background: rgba(255,255,255,0.12); }
+    .slide-menu-items li.tl-menu-item .tl-menu-year { opacity: 0.7; margin-right: 6px; }
+    </style>
+    <script>
+    (function () {
+      function build() {
+        var list = document.querySelector('.slide-menu-items');
+        var slide = document.querySelector('section.timeline-slide');
+        if (!list || !slide || list.querySelector('.tl-menu-item')) return !!list;
+        var h = Reveal.getIndices(slide).h;
+        var anchor = list.querySelector('li[data-slide-h="' + h + '"]');
+        var events = slide.querySelectorAll('.event[data-fragment-index]');
+        var after = anchor, counts = {};
+        events.forEach(function (ev) {
+          var st = ev.querySelector('strong'); var t = st ? st.textContent.trim() : '';
+          counts[t] = (counts[t] || 0) + 1;
+        });
+        events.forEach(function (ev) {
+          var idx = parseInt(ev.getAttribute('data-fragment-index'), 10);
+          var strong = ev.querySelector('strong');
+          var title = strong ? strong.textContent.trim() : '';
+          if (strong && counts[title] > 1) {
+            var rest = strong.parentNode.textContent.replace(strong.textContent, '').replace(/\s+/g, ' ').trim();
+            if (rest.length > 48) rest = rest.slice(0, 46).trim() + '…';
+            if (rest) title = rest;
+          }
+          var li = document.createElement('li');
+          li.className = 'tl-menu-item';
+          li.innerHTML = '<span class="tl-menu-year"></span><span class="tl-menu-title"></span>';
+          li.querySelector('.tl-menu-year').textContent = ev.getAttribute('data-label') || '';
+          li.querySelector('.tl-menu-title').textContent = title;
+          li.addEventListener('click', function (e) {
+            e.preventDefault(); e.stopPropagation();
+            Reveal.slide(h, 0, idx);
+            var menu = Reveal.getPlugin && Reveal.getPlugin('menu');
+            if (menu && menu.closeMenu) menu.closeMenu();
+          });
+          if (after && after.parentNode === list) { after.insertAdjacentElement('afterend', li); after = li; }
+          else list.appendChild(li);
+        });
+        return true;
+      }
+      var tries = 0;
+      (function wait() {
+        if (window.Reveal && Reveal.isReady && Reveal.isReady() && build()) return;
+        if (++tries < 100) setTimeout(wait, 100);
+      })();
+    })();
+    </script>
     <script id="quarto-html-after-body" type="application/javascript">
       window.document.addEventListener("DOMContentLoaded", function (event) {
         const tabsets =  window.document.querySelectorAll(".panel-tabset-tabby")
