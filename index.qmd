@@ -231,6 +231,8 @@ Graduation project mine field robot for the Egyptian ministry of defense .
 
 **EE Master's student/TA** Applying AI (BEVnet to detect traversable terrain  for robots)
 
+[Results](https://1drv.ms/i/c/6a6cbdc286386d85/IQCa2JDEJ2L6RbSzaGxqmXizAXslNAbocUrvhC_DJ3dQXgM?e=04NtL1){target="_blank" rel="noopener"}
+
 ![](terrian_classification.png){.omron-image .fragment .fade-in-then-out data-fragment-index="21"}
 <p class="img-caption-ar fragment fade-in-then-out" dir="rtl" lang="ar" data-fragment-index="21">تصنيف التضاريس للروبوتات — BEVnet</p>
 :::
