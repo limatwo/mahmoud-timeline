@@ -236,15 +236,50 @@ Graduation project mine field robot for the Egyptian ministry of defense .
 <p class="img-caption-ar fragment fade-in-then-out" dir="rtl" lang="ar" data-fragment-index="21">تصنيف التضاريس للروبوتات — BEVnet</p>
 :::
 
-::: {.event .fragment data-label="Skills" data-fragment-index="22"}
-![](skills.png){.omron-image .fragment data-fragment-index="22"}
+::: {.event .fragment data-label="Lessons" data-fragment-index="22"}
+**What I learned from my experience**\
+Initiative • Convincing • Extreme pressure
 :::
 
-::: {.event .fragment data-label="Next" data-fragment-index="23"}
+::: {.event .fragment data-label="Carleton" data-fragment-index="23"}
+![](CU_logo.jpg){.timeline-logo .cu-logo .fragment data-fragment-index="23"}
+
+**At Carleton** I learned to work efficiently and complete projects in a timely manner.
+:::
+
+::: {.event .fragment data-label="Seneca & Centennial" data-fragment-index="24"}
+![](Seneca_College-Logo.svg){.timeline-logo .seneca-logo .fragment data-fragment-index="24"}
+
+**At Seneca and Centennial** I learned to work under extreme pressure and exhaustion.
+:::
+
+::: {.event .fragment data-label="McGill" data-fragment-index="25"}
+![](mcgill_logo.png){.timeline-logo .seneca-logo .fragment data-fragment-index="25"}
+
+**At McGill** I had to figure out how to convince well-established researchers of my ideas and approaches.
+:::
+
+::: {.event .fragment data-label="Meta" data-fragment-index="26"}
+![](Meta_logo.png){.timeline-logo .seneca-logo .fragment data-fragment-index="26"}
+
+**At Meta** I learned to take the initiative and work independently on problems with minimal supervision.
+:::
+
+::: {.event .fragment data-label="KFUPM" data-fragment-index="27"}
+![](King_Fahd_University_of_Petroleum_&_Minerals_Logo.png){.timeline-logo .seneca-logo .fragment data-fragment-index="27"}
+
+**At KFUPM** I learned what it means to work under an extreme load and exhaustion and still perform at a high level.
+:::
+
+::: {.event .fragment data-label="Skills" data-fragment-index="28"}
+![](skills.png){.omron-image .fragment data-fragment-index="28"}
+:::
+
+::: {.event .fragment data-label="Next" data-fragment-index="29"}
 **Expected to graduate in the next few months** Bringing simulation, data analysis, and teaching strengths to a potential team.
 
-![](QR_code.png){.omron-image .fragment .fade-in-then-out data-fragment-index="23"}
-<p class="img-caption-ar fragment fade-in-then-out" dir="rtl" lang="ar" data-fragment-index="23">تواصل معي</p>
+![](QR_code.png){.omron-image .fragment .fade-in-then-out data-fragment-index="29"}
+<p class="img-caption-ar fragment fade-in-then-out" dir="rtl" lang="ar" data-fragment-index="29">تواصل معي</p>
 :::
 ::::
 
