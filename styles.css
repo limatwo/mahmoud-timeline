@@ -27,13 +27,13 @@
   content: "";
   position: absolute;
   inset: 0;
-  /* Old background kept as backup. To undo, swap these two blocks:
-     background-image: url("background.png"); background-size: 100% 100%; opacity: 0.16; */
-  background-image: url("background_v2.png");
-  background-position: left top;
+  /* Backups: original = url("background.png") size 100% 100% opacity 0.16;
+     blue version = url("background_v2.png") position left top, opacity 1 */
+  background-image: url("background_sharp.png");
+  background-position: left center;
   background-size: cover;
   background-repeat: no-repeat;
-  opacity: 1;
+  opacity: 0.18;
   pointer-events: none;
   z-index: -1;
 }
@@ -53,7 +53,7 @@
 
 .reveal h2 .tl-code {
   color: #5a61b5;
-  font-family: inherit;
+  font-family: Consolas, "Courier New", monospace;
 }
 
 .reveal .timeline-slide {
